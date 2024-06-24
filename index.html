@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect 4 Dots</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cover Game Section -->
+    <div class="end">
+        <h2>MADE BY HRITIKA SHARAN</h2>
+    </div>
+    
+    <div class="cover-game">
+        <div class="text">
+            <h1>Welcome to my Game World</h1>
+        </div>
+        <div class="animate-box">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="border-animate-box">
+                <button class="start-game">Start Game</button>      
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container active">
+        <form action="" class="form">
+            <div class="text-box">
+                <h2>Enter Players Names</h2>
+                <h3>Choose Color</h3>
+            </div>
+            <div class="user-box">
+                <div class="input-box success">
+                    <input type="text" placeholder="Player 1" class="firstname">
+                    <div class="error"></div>
+                </div>
+                <div class="input-box success">
+                    <input type="color" class="firstcolor">
+                    <div class="error"></div>
+                </div>
+                <div class="vs">VS</div>
+                <div class="input-box success">
+                    <input type="text" placeholder="Player 2" class="secondname"> 
+                    <div class="error"></div>
+                </div>
+                <div class="input-box success">
+                    <input type="color" class="secondcolor">
+                    <div class="error"></div>
+                </div>
+            </div>
+            <button class="submit" type="submit">Submit</button>
+        </form>
+
+        <!-- Game Body -->
+        <div class="game-body active">
+            <div class="user-info">
+                <h2>Connect-4 Master Game</h2>
+                <div class="player-box">
+                    <div class="player">
+                        <span class="firstplayer">First</span>
+                        <span class="color1"></span>
+                    </div>
+                    <div class="player">
+                        <span class="vst">vs</span>
+                    </div>
+                    <div class="player">
+                        <span class="secondplayer">Second</span>
+                        <span class="color2"></span>
+                    </div>
+                </div>
+                <div class="playerchance">First</div>
+            </div>
+            <div class="connect-4-game">
+        <div class="connect-4-game">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            </div>
+        </div>
+    </div>
+
+<div class="winner-popup active">
+    <div class="winner-content active">
+        <div class="winner-name"></div>
+        <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGljZXlwY21uNnQydm5odXYwMXhqY3UwZ3NnbnBiN3pwNWdobHpsbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WjdkmVtr8TDgaEdzHf/giphy.gif">
+        
+        <button class="restart-game">Restart Game</button>
+    </div>
+</div>
+
+<!-- <div class="winning-box-background">
+    <div class="winning-box">
+        <h2>Congratulations
+        <div class="winner-name"><h2>Winner Name</h2></div>
+        </h2>
+        <div class="button restart">Restart Game</div>
+    </div>
+    <div class="winner-play"></div>
+</div> -->
+
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
